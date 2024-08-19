@@ -16,7 +16,6 @@ Este projeto demonstra como interagir com o sensor IMU MPU6050 usando o framewor
 - [Uso](#uso)
 - [Descrição do Código](#descrição-do-código)
 - [Exemplo de Saída](#exemplo-de-saída)
-- [Resolução de Problemas](#resolução-de-problemas)
 
 ## Visão Geral
 
