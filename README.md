@@ -5,8 +5,7 @@
 
 Este projeto demonstra como interagir com o sensor IMU MPU6050 usando o framework ESP-IDF para o microcontrolador ESP32. O código lida com a comunicação I2C para ler dados do acelerômetro e giroscópio, calcula quaternions e ângulos de Euler, e exibe os resultados.
 
-![ESP32](https://upload.wikimedia.org/wikipedia/commons/3/30/ESP32-DevKitC.jpg)
-*Imagem do ESP32*
+
 
 ## Índice
 
