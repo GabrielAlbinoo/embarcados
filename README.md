@@ -168,7 +168,10 @@ idf.py flash
 ## Especificações do Sistema
 
 ### Diagrama de Blocos
-![Diagrama](diagrama.jpeg)
+![Diagrama](docs/diag_bloco.png)
+
+### Máquina de Estados
+![Maquina](docs/maquina-estados.jpeg)
 
 ### Esquemático do Hardware
-![Esquematico](esquematico.png)
+![Esquematico](docs/esquematico.png)
