@@ -14,5 +14,8 @@
     "idf.portWin": "COM3",
     "idf.pythonBinPathWin": "C:\\Users\\gabri\\.espressif\\python_env\\idf5.2_py3.11_env\\Scripts\\python.exe",
     "idf.toolsPathWin": "C:\\Users\\gabri\\.espressif",
-    "idf.flashType": "UART"
+    "idf.flashType": "UART",
+    "files.associations": {
+        "imu_tools.h": "c"
+    }
 }

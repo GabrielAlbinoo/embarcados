@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "projeto-final-embarcados",
-    "project_version":    "1",
+    "project_version":    "b9b4a84-dirty",
     "project_path":       "C:/Users/gabri/Documents/projects/projeto-final-embarcados",
     "idf_path":           "C:/Users/gabri/esp/v5.2/esp-idf",
     "build_dir":          "C:/Users/gabri/Documents/projects/projeto-final-embarcados/build",
@@ -805,8 +805,8 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "C:/Users/gabri/Documents/projects/projeto-final-embarcados/build/esp-idf/main/libmain.a",
-            "sources": [ "C:/Users/gabri/Documents/projects/projeto-final-embarcados/main/main.c" ],
-            "include_dirs": [ "." ]
+            "sources": [ "C:/Users/gabri/Documents/projects/projeto-final-embarcados/lib/imu_tools.c", "C:/Users/gabri/Documents/projects/projeto-final-embarcados/lib/sensor_imu.c", "C:/Users/gabri/Documents/projects/projeto-final-embarcados/main/main.c" ],
+            "include_dirs": [ "C:/Users/gabri/Documents/projects/projeto-final-embarcados/lib" ]
         },
         "mbedtls": {
             "alias": "idf::mbedtls",
@@ -2116,7 +2116,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "." ]
+            "include_dirs": [ "C:/Users/gabri/Documents/projects/projeto-final-embarcados/lib" ]
         }
     },
     "debug_prefix_map_gdbinit": ""

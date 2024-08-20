@@ -28,9 +28,9 @@ void app_main(void)
         resultado = imu_get_acceleration_data(&accel_data);
         if (resultado == ESP_OK)
         {
-            acell_x = accel_data.x/ACCEL_SCALE * GRAVITY;
-            acell_y = accel_data.y/ACCEL_SCALE * GRAVITY;
-            acell_z = accel_data.z/ACCEL_SCALE * GRAVITY;
+            float acell_x = (accel_data.x/ACCEL_SCALE) * GRAVITY;
+            float acell_y = (accel_data.y/ACCEL_SCALE) * GRAVITY;
+            float acell_z = (accel_data.z/ACCEL_SCALE) * GRAVITY;
             printf("Aceleração (m/s): x = %f, y = %f, z = %f\n", acell_x, acell_y, acell_z);
         } else
         {

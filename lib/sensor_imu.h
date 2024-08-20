@@ -4,6 +4,8 @@
 #include <stdio.h>
 #include "esp_err.h"
 #include "driver/gpio.h"
+#include "imu_tools.h"
+
 
 typedef struct {
     float x;

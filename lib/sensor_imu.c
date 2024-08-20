@@ -4,9 +4,13 @@
 #define I2C_MASTER_NUM I2C_NUM_0          
 #define I2C_MASTER_FREQ_HZ 100000          
 #define I2C_MASTER_TX_BUF_DISABLE 0       
-#define I2C_MASTER_RX_BUF_DISABLE 0       
+#define I2C_MASTER_RX_BUF_DISABLE 0      
 
-static uint8_t imu_dev_addr;
+#define MPU6050_ACCEL_XOUT_H 0x3B
+#define MPU6050_GYRO_XOUT_H 0x43
+#define MPU6050_PWR_MGMT_1 0x6B
+
+uint8_t imu_dev_addr;
 
 esp_err_t imu_init(uint8_t devAddr, gpio_num_t sda_pin, gpio_num_t scl_pin) {
     imu_dev_addr = devAddr;
@@ -32,6 +36,8 @@ esp_err_t imu_init(uint8_t devAddr, gpio_num_t sda_pin, gpio_num_t scl_pin) {
     i2c_cmd_handle_t cmd = i2c_cmd_link_create();
     i2c_master_start(cmd);
     i2c_master_write_byte(cmd, (imu_dev_addr << 1) | I2C_MASTER_WRITE, true);
+    i2c_master_write_byte(cmd, MPU6050_PWR_MGMT_1, true);
+    i2c_master_write_byte(cmd, 0x00, true);
     i2c_master_stop(cmd);
     err = i2c_master_cmd_begin(I2C_MASTER_NUM, cmd, pdMS_TO_TICKS(1000));
     i2c_cmd_link_delete(cmd);
@@ -49,7 +55,7 @@ esp_err_t imu_get_acceleration_data(AccelerationData *data) {
     }
 
     uint8_t accel_data[6];
-    esp_err_t err = imu_read_data(MPU6050_ACCEL_XOUT_H, accel_data, 6);
+    esp_err_t err = imu_read_data(MPU6050_ACCEL_XOUT_H, accel_data, sizeof(accel_data));
     if (err != ESP_OK) {
         return err;
     }
@@ -67,7 +73,7 @@ esp_err_t imu_get_gyroscope_data(GyroscopeData *data) {
     }
 
     uint8_t gyro_data[6];
-    esp_err_t err = imu_read_data(MPU6050_GYRO_XOUT_H, gyro_data, 6);
+    esp_err_t err = imu_read_data(MPU6050_GYRO_XOUT_H, gyro_data, sizeof(gyro_data));
     if (err != ESP_OK) {
         return err;
     }
