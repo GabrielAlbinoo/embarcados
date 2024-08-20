@@ -174,6 +174,12 @@ Site para validar/comparar os dados de entrada com a saída calculada:
 
 ### Máquina de Estados
 
+#### Representação Gráfica:
+
+![Maquina](docs/maquina-estados.jpeg)
+
+#### Switch Case:
+
 ```c
 typedef enum {
   INIT,
