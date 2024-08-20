@@ -173,7 +173,85 @@ Site para validar/comparar os dados de entrada com a saída calculada:
 ![Diagrama](docs/diag_bloco.png)
 
 ### Máquina de Estados
-![Maquina](docs/maquina-estados.jpeg)
+
+```c
+typedef enum {
+  INIT,
+  GET_ACCELERATION_DATA,
+  GET_GYROSCOPE_DATA,
+  CALCULATE_QUATERNION,
+  CALCULATE_EULER_ANGLES,
+  ERROR,
+  DEINIT
+} State;
+
+State estado_atual = INIT;
+
+void maquina_de_estados() {
+  switch (estado_atual) {
+    case INIT:
+      if (imu_init(0x68, GPIO_NUM_21, GPIO_NUM_22) == ESP_OK) {
+        estado_atual = GET_ACCELERATION_DATA;
+      } else {
+        estado_atual = ERROR;
+      }
+      break;
+
+    case GET_ACCELERATION_DATA:
+      IMUData imu_data;
+      estado_atual = GET_GYROSCOPE_DATA;
+
+      if (imu_read_data(&imu_data) == ESP_OK) {
+        eprintf("Ok\n");
+      } else {
+        eprintf("Erro\n");
+      }
+      break;
+    
+    case GET_GYROSCOPE_DATA:
+      IMUData imu_data;
+      estado_atual = CALCULATE_QUATERNION;
+
+      if (imu_read_data(&imu_data) == ESP_OK) {
+        eprintf("Ok\n");
+      } else {
+        eprintf("Erro\n");
+      }
+      break;
+
+    case CALCULATE_QUATERNION:
+      Quaternion quaternion;
+      estado_atual = CALCULATE_EULER_ANGLES;
+
+      if (imu_calculate_quaternion(&imu_data, &quaternion) == ESP_OK) {
+        eprintf("Ok\n");
+      } else {
+        eprintf("Erro\n");
+      }
+      break;
+
+    case CALCULATE_EULER_ANGLES:
+      EulerAngle euler_angles;
+      estado_atual = GET_ACCELERATION_DATA;
+
+      if (imu_calculate_euler_angles(&quaternion, &euler_angles) == ESP_OK) {
+        eprintf("Ok\n");
+      } else {
+        eprintf("Erro\n");
+      }
+      break;
+
+    case ERROR:
+      estado_atual = DEINIT;
+      break;
+
+    case DEINIT:
+      imu_deinit();
+      estado_atual = DEINIT;
+      break;
+  }
+}
+```
 
 ### Esquemático do Hardware
 ![Esquematico](docs/esquematico.png)
