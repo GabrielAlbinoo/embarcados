@@ -164,6 +164,8 @@ Quaternion: w = 1.00, x = 0.00, y = 0.00, z = 0.00
 Ângulos de Euler: Roll = 0.00, Pitch = 0.00, Yaw = 0.00
 idf.py flash 
 ```
+Site para validar/comparar os dados de entrada com a saída calculada:
+[quaternions.online](https://quaternions.online/)
 
 ## Especificações do Sistema
 
@@ -175,3 +177,29 @@ idf.py flash
 
 ### Esquemático do Hardware
 ![Esquematico](docs/esquematico.png)
+
+<hr>
+
+#### Equipe:
+
+- Álisson Leandro de Souza Silva;
+
+- Amanda Ferreira da Silva Alves;
+  
+- Ana Carolina Dutra Ramos;
+  
+- Gabriel Albino de Oliveira;
+  
+- Pâmella Vitória Gomes Farias;
+  
+- Sara Aymê Marinho Gaspar.
+
+
+#### Professor: 
+
+- Alexandre Sales Vasconcelos.
+
+#### Disciplina: 
+
+- Sistemas Embarcados.
+
