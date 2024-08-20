@@ -15,6 +15,7 @@ Este projeto demonstra como interagir com o sensor IMU MPU6050 usando o framewor
 - [Uso](#uso)
 - [Descrição do Código](#descrição-do-código)
 - [Exemplo de Saída](#exemplo-de-saída)
+- [Especificações do Sistema](#especificações-do-sistema)
 
 ## Visão Geral
 
@@ -161,5 +162,13 @@ Aceleração (m/s): x = 0.00, y = 0.00, z = 9.81
 Giroscópio (rad): x = 0.00, y = 0.00, z = 0.00
 Quaternion: w = 1.00, x = 0.00, y = 0.00, z = 0.00
 Ângulos de Euler: Roll = 0.00, Pitch = 0.00, Yaw = 0.00
-idf.py flash ```
+idf.py flash 
+```
 
+## Especificações do Sistema
+
+### Diagrama de Blocos
+![Diagrama](diagrama.jpeg)
+
+### Esquemático do Hardware
+![Esquematico](esquematico.png)
