@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "projeto-final-embarcados",
-    "project_version":    "b9b4a84-dirty",
+    "project_version":    "7c477d9-dirty",
     "project_path":       "C:/Users/gabri/Documents/projects/projeto-final-embarcados",
     "idf_path":           "C:/Users/gabri/esp/v5.2/esp-idf",
     "build_dir":          "C:/Users/gabri/Documents/projects/projeto-final-embarcados/build",
@@ -25,8 +25,8 @@
         "COMPONENT_KCONFIGS_PROJBUILD" : "C:/Users/gabri/esp/v5.2/esp-idf/components/bootloader/Kconfig.projbuild;C:/Users/gabri/esp/v5.2/esp-idf/components/esp_app_format/Kconfig.projbuild;C:/Users/gabri/esp/v5.2/esp-idf/components/esp_rom/Kconfig.projbuild;C:/Users/gabri/esp/v5.2/esp-idf/components/esptool_py/Kconfig.projbuild;C:/Users/gabri/esp/v5.2/esp-idf/components/partition_table/Kconfig.projbuild"
     },
     "common_component_reqs": [ "cxx", "newlib", "freertos", "esp_hw_support", "heap", "log", "soc", "hal", "esp_rom", "esp_common", "esp_system", "xtensa" ],
-    "build_components" : [ "app_trace", "app_update", "bootloader", "bootloader_support", "bt", "cmock", "console", "cxx", "driver", "efuse", "esp-tls", "esp_adc", "esp_app_format", "esp_bootloader_format", "esp_coex", "esp_common", "esp_eth", "esp_event", "esp_gdbstub", "esp_hid", "esp_http_client", "esp_http_server", "esp_https_ota", "esp_https_server", "esp_hw_support", "esp_lcd", "esp_local_ctrl", "esp_mm", "esp_netif", "esp_netif_stack", "esp_partition", "esp_phy", "esp_pm", "esp_psram", "esp_ringbuf", "esp_rom", "esp_system", "esp_timer", "esp_wifi", "espcoredump", "esptool_py", "fatfs", "freertos", "hal", "heap", "http_parser", "idf_test", "ieee802154", "json", "log", "lwip", "main", "mbedtls", "mqtt", "newlib", "nvs_flash", "nvs_sec_provider", "openthread", "partition_table", "perfmon", "protobuf-c", "protocomm", "pthread", "sdmmc", "soc", "spi_flash", "spiffs", "tcp_transport", "ulp", "unity", "usb", "vfs", "wear_levelling", "wifi_provisioning", "wpa_supplicant", "xtensa", "" ],
-    "build_component_paths" : [ "C:/Users/gabri/esp/v5.2/esp-idf/components/app_trace", "C:/Users/gabri/esp/v5.2/esp-idf/components/app_update", "C:/Users/gabri/esp/v5.2/esp-idf/components/bootloader", "C:/Users/gabri/esp/v5.2/esp-idf/components/bootloader_support", "C:/Users/gabri/esp/v5.2/esp-idf/components/bt", "C:/Users/gabri/esp/v5.2/esp-idf/components/cmock", "C:/Users/gabri/esp/v5.2/esp-idf/components/console", "C:/Users/gabri/esp/v5.2/esp-idf/components/cxx", "C:/Users/gabri/esp/v5.2/esp-idf/components/driver", "C:/Users/gabri/esp/v5.2/esp-idf/components/efuse", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp-tls", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_adc", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_app_format", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_bootloader_format", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_coex", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_common", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_eth", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_event", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_gdbstub", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_hid", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_http_client", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_http_server", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_https_ota", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_https_server", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_hw_support", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_lcd", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_local_ctrl", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_mm", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_netif", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_netif_stack", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_partition", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_phy", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_pm", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_psram", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_ringbuf", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_rom", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_system", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_timer", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_wifi", "C:/Users/gabri/esp/v5.2/esp-idf/components/espcoredump", "C:/Users/gabri/esp/v5.2/esp-idf/components/esptool_py", "C:/Users/gabri/esp/v5.2/esp-idf/components/fatfs", "C:/Users/gabri/esp/v5.2/esp-idf/components/freertos", "C:/Users/gabri/esp/v5.2/esp-idf/components/hal", "C:/Users/gabri/esp/v5.2/esp-idf/components/heap", "C:/Users/gabri/esp/v5.2/esp-idf/components/http_parser", "C:/Users/gabri/esp/v5.2/esp-idf/components/idf_test", "C:/Users/gabri/esp/v5.2/esp-idf/components/ieee802154", "C:/Users/gabri/esp/v5.2/esp-idf/components/json", "C:/Users/gabri/esp/v5.2/esp-idf/components/log", "C:/Users/gabri/esp/v5.2/esp-idf/components/lwip", "C:/Users/gabri/Documents/projects/projeto-final-embarcados/main", "C:/Users/gabri/esp/v5.2/esp-idf/components/mbedtls", "C:/Users/gabri/esp/v5.2/esp-idf/components/mqtt", "C:/Users/gabri/esp/v5.2/esp-idf/components/newlib", "C:/Users/gabri/esp/v5.2/esp-idf/components/nvs_flash", "C:/Users/gabri/esp/v5.2/esp-idf/components/nvs_sec_provider", "C:/Users/gabri/esp/v5.2/esp-idf/components/openthread", "C:/Users/gabri/esp/v5.2/esp-idf/components/partition_table", "C:/Users/gabri/esp/v5.2/esp-idf/components/perfmon", "C:/Users/gabri/esp/v5.2/esp-idf/components/protobuf-c", "C:/Users/gabri/esp/v5.2/esp-idf/components/protocomm", "C:/Users/gabri/esp/v5.2/esp-idf/components/pthread", "C:/Users/gabri/esp/v5.2/esp-idf/components/sdmmc", "C:/Users/gabri/esp/v5.2/esp-idf/components/soc", "C:/Users/gabri/esp/v5.2/esp-idf/components/spi_flash", "C:/Users/gabri/esp/v5.2/esp-idf/components/spiffs", "C:/Users/gabri/esp/v5.2/esp-idf/components/tcp_transport", "C:/Users/gabri/esp/v5.2/esp-idf/components/ulp", "C:/Users/gabri/esp/v5.2/esp-idf/components/unity", "C:/Users/gabri/esp/v5.2/esp-idf/components/usb", "C:/Users/gabri/esp/v5.2/esp-idf/components/vfs", "C:/Users/gabri/esp/v5.2/esp-idf/components/wear_levelling", "C:/Users/gabri/esp/v5.2/esp-idf/components/wifi_provisioning", "C:/Users/gabri/esp/v5.2/esp-idf/components/wpa_supplicant", "C:/Users/gabri/esp/v5.2/esp-idf/components/xtensa", "" ],
+    "build_components" : [ "app_trace", "app_update", "bootloader", "bootloader_support", "bt", "cmock", "console", "cxx", "driver", "efuse", "esp-tls", "esp_adc", "esp_app_format", "esp_bootloader_format", "esp_coex", "esp_common", "esp_eth", "esp_event", "esp_gdbstub", "esp_hid", "esp_http_client", "esp_http_server", "esp_https_ota", "esp_https_server", "esp_hw_support", "esp_lcd", "esp_local_ctrl", "esp_mm", "esp_netif", "esp_netif_stack", "esp_partition", "esp_phy", "esp_pm", "esp_psram", "esp_ringbuf", "esp_rom", "esp_system", "esp_timer", "esp_wifi", "espcoredump", "esptool_py", "fatfs", "freertos", "hal", "heap", "http_parser", "idf_test", "ieee802154", "imu_tools", "json", "log", "lwip", "main", "mbedtls", "mqtt", "newlib", "nvs_flash", "nvs_sec_provider", "openthread", "partition_table", "perfmon", "protobuf-c", "protocomm", "pthread", "sdmmc", "sensor_imu", "soc", "spi_flash", "spiffs", "tcp_transport", "ulp", "unity", "usb", "vfs", "wear_levelling", "wifi_provisioning", "wpa_supplicant", "xtensa", "" ],
+    "build_component_paths" : [ "C:/Users/gabri/esp/v5.2/esp-idf/components/app_trace", "C:/Users/gabri/esp/v5.2/esp-idf/components/app_update", "C:/Users/gabri/esp/v5.2/esp-idf/components/bootloader", "C:/Users/gabri/esp/v5.2/esp-idf/components/bootloader_support", "C:/Users/gabri/esp/v5.2/esp-idf/components/bt", "C:/Users/gabri/esp/v5.2/esp-idf/components/cmock", "C:/Users/gabri/esp/v5.2/esp-idf/components/console", "C:/Users/gabri/esp/v5.2/esp-idf/components/cxx", "C:/Users/gabri/esp/v5.2/esp-idf/components/driver", "C:/Users/gabri/esp/v5.2/esp-idf/components/efuse", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp-tls", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_adc", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_app_format", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_bootloader_format", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_coex", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_common", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_eth", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_event", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_gdbstub", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_hid", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_http_client", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_http_server", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_https_ota", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_https_server", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_hw_support", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_lcd", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_local_ctrl", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_mm", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_netif", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_netif_stack", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_partition", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_phy", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_pm", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_psram", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_ringbuf", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_rom", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_system", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_timer", "C:/Users/gabri/esp/v5.2/esp-idf/components/esp_wifi", "C:/Users/gabri/esp/v5.2/esp-idf/components/espcoredump", "C:/Users/gabri/esp/v5.2/esp-idf/components/esptool_py", "C:/Users/gabri/esp/v5.2/esp-idf/components/fatfs", "C:/Users/gabri/esp/v5.2/esp-idf/components/freertos", "C:/Users/gabri/esp/v5.2/esp-idf/components/hal", "C:/Users/gabri/esp/v5.2/esp-idf/components/heap", "C:/Users/gabri/esp/v5.2/esp-idf/components/http_parser", "C:/Users/gabri/esp/v5.2/esp-idf/components/idf_test", "C:/Users/gabri/esp/v5.2/esp-idf/components/ieee802154", "C:/Users/gabri/Documents/projects/projeto-final-embarcados/components/imu_tools", "C:/Users/gabri/esp/v5.2/esp-idf/components/json", "C:/Users/gabri/esp/v5.2/esp-idf/components/log", "C:/Users/gabri/esp/v5.2/esp-idf/components/lwip", "C:/Users/gabri/Documents/projects/projeto-final-embarcados/main", "C:/Users/gabri/esp/v5.2/esp-idf/components/mbedtls", "C:/Users/gabri/esp/v5.2/esp-idf/components/mqtt", "C:/Users/gabri/esp/v5.2/esp-idf/components/newlib", "C:/Users/gabri/esp/v5.2/esp-idf/components/nvs_flash", "C:/Users/gabri/esp/v5.2/esp-idf/components/nvs_sec_provider", "C:/Users/gabri/esp/v5.2/esp-idf/components/openthread", "C:/Users/gabri/esp/v5.2/esp-idf/components/partition_table", "C:/Users/gabri/esp/v5.2/esp-idf/components/perfmon", "C:/Users/gabri/esp/v5.2/esp-idf/components/protobuf-c", "C:/Users/gabri/esp/v5.2/esp-idf/components/protocomm", "C:/Users/gabri/esp/v5.2/esp-idf/components/pthread", "C:/Users/gabri/esp/v5.2/esp-idf/components/sdmmc", "C:/Users/gabri/Documents/projects/projeto-final-embarcados/components/sensor_imu", "C:/Users/gabri/esp/v5.2/esp-idf/components/soc", "C:/Users/gabri/esp/v5.2/esp-idf/components/spi_flash", "C:/Users/gabri/esp/v5.2/esp-idf/components/spiffs", "C:/Users/gabri/esp/v5.2/esp-idf/components/tcp_transport", "C:/Users/gabri/esp/v5.2/esp-idf/components/ulp", "C:/Users/gabri/esp/v5.2/esp-idf/components/unity", "C:/Users/gabri/esp/v5.2/esp-idf/components/usb", "C:/Users/gabri/esp/v5.2/esp-idf/components/vfs", "C:/Users/gabri/esp/v5.2/esp-idf/components/wear_levelling", "C:/Users/gabri/esp/v5.2/esp-idf/components/wifi_provisioning", "C:/Users/gabri/esp/v5.2/esp-idf/components/wpa_supplicant", "C:/Users/gabri/esp/v5.2/esp-idf/components/xtensa", "" ],
     "build_component_info" : {
         "app_trace": {
             "alias": "idf::app_trace",
@@ -748,6 +748,21 @@
             "sources": [],
             "include_dirs": [ "include" ]
         },
+        "imu_tools": {
+            "alias": "idf::imu_tools",
+            "target": "___idf_imu_tools",
+            "prefix": "idf",
+            "dir": "C:/Users/gabri/Documents/projects/projeto-final-embarcados/components/imu_tools",
+            "type": "LIBRARY",
+            "lib": "__idf_imu_tools",
+            "reqs": [ "driver" ],
+            "priv_reqs": [],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "C:/Users/gabri/Documents/projects/projeto-final-embarcados/build/esp-idf/imu_tools/libimu_tools.a",
+            "sources": [ "C:/Users/gabri/Documents/projects/projeto-final-embarcados/components/imu_tools/imu_tools.c" ],
+            "include_dirs": [ "include" ]
+        },
         "json": {
             "alias": "idf::json",
             "target": "___idf_json",
@@ -805,8 +820,8 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "C:/Users/gabri/Documents/projects/projeto-final-embarcados/build/esp-idf/main/libmain.a",
-            "sources": [ "C:/Users/gabri/Documents/projects/projeto-final-embarcados/lib/imu_tools.c", "C:/Users/gabri/Documents/projects/projeto-final-embarcados/lib/sensor_imu.c", "C:/Users/gabri/Documents/projects/projeto-final-embarcados/main/main.c" ],
-            "include_dirs": [ "C:/Users/gabri/Documents/projects/projeto-final-embarcados/lib" ]
+            "sources": [ "C:/Users/gabri/Documents/projects/projeto-final-embarcados/main/main.c" ],
+            "include_dirs": [ "." ]
         },
         "mbedtls": {
             "alias": "idf::mbedtls",
@@ -986,6 +1001,21 @@
             "managed_priv_reqs": [],
             "file": "C:/Users/gabri/Documents/projects/projeto-final-embarcados/build/esp-idf/sdmmc/libsdmmc.a",
             "sources": [ "C:/Users/gabri/esp/v5.2/esp-idf/components/sdmmc/sdmmc_cmd.c", "C:/Users/gabri/esp/v5.2/esp-idf/components/sdmmc/sdmmc_common.c", "C:/Users/gabri/esp/v5.2/esp-idf/components/sdmmc/sdmmc_init.c", "C:/Users/gabri/esp/v5.2/esp-idf/components/sdmmc/sdmmc_io.c", "C:/Users/gabri/esp/v5.2/esp-idf/components/sdmmc/sdmmc_mmc.c", "C:/Users/gabri/esp/v5.2/esp-idf/components/sdmmc/sdmmc_sd.c" ],
+            "include_dirs": [ "include" ]
+        },
+        "sensor_imu": {
+            "alias": "idf::sensor_imu",
+            "target": "___idf_sensor_imu",
+            "prefix": "idf",
+            "dir": "C:/Users/gabri/Documents/projects/projeto-final-embarcados/components/sensor_imu",
+            "type": "LIBRARY",
+            "lib": "__idf_sensor_imu",
+            "reqs": [ "imu_tools", "driver" ],
+            "priv_reqs": [],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "C:/Users/gabri/Documents/projects/projeto-final-embarcados/build/esp-idf/sensor_imu/libsensor_imu.a",
+            "sources": [ "C:/Users/gabri/Documents/projects/projeto-final-embarcados/components/sensor_imu/sensor_imu.c" ],
             "include_dirs": [ "include" ]
         },
         "soc": {
@@ -2116,7 +2146,31 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "C:/Users/gabri/Documents/projects/projeto-final-embarcados/lib" ]
+            "include_dirs": [ "." ]
+        },
+        "imu_tools": {
+            "alias": "idf::imu_tools",
+            "target": "___idf_imu_tools",
+            "prefix": "idf",
+            "dir": "C:/Users/gabri/Documents/projects/projeto-final-embarcados/components/imu_tools",
+            "lib": "__idf_imu_tools",
+            "reqs": [ "driver" ],
+            "priv_reqs": [],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "include_dirs": [ "include" ]
+        },
+        "sensor_imu": {
+            "alias": "idf::sensor_imu",
+            "target": "___idf_sensor_imu",
+            "prefix": "idf",
+            "dir": "C:/Users/gabri/Documents/projects/projeto-final-embarcados/components/sensor_imu",
+            "lib": "__idf_sensor_imu",
+            "reqs": [ "imu_tools", "driver" ],
+            "priv_reqs": [],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "include_dirs": [ "include" ]
         }
     },
     "debug_prefix_map_gdbinit": ""

@@ -37,7 +37,6 @@ void app_main(void)
             printf("Falha ao obter dados de aceleração.\n");
         }
         
-
         GyroscopeData gyro_data;
         resultado = imu_get_gyroscope_data(&gyro_data);
         if (resultado == ESP_OK)

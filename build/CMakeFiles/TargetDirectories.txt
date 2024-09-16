@@ -635,3 +635,17 @@ C:/Users/gabri/Documents/projects/projeto-final-embarcados/build/esp-idf/main/CM
 C:/Users/gabri/Documents/projects/projeto-final-embarcados/build/esp-idf/main/CMakeFiles/install.dir
 C:/Users/gabri/Documents/projects/projeto-final-embarcados/build/esp-idf/main/CMakeFiles/install/local.dir
 C:/Users/gabri/Documents/projects/projeto-final-embarcados/build/esp-idf/main/CMakeFiles/install/strip.dir
+C:/Users/gabri/Documents/projects/projeto-final-embarcados/build/esp-idf/imu_tools/CMakeFiles/__idf_imu_tools.dir
+C:/Users/gabri/Documents/projects/projeto-final-embarcados/build/esp-idf/imu_tools/CMakeFiles/edit_cache.dir
+C:/Users/gabri/Documents/projects/projeto-final-embarcados/build/esp-idf/imu_tools/CMakeFiles/rebuild_cache.dir
+C:/Users/gabri/Documents/projects/projeto-final-embarcados/build/esp-idf/imu_tools/CMakeFiles/list_install_components.dir
+C:/Users/gabri/Documents/projects/projeto-final-embarcados/build/esp-idf/imu_tools/CMakeFiles/install.dir
+C:/Users/gabri/Documents/projects/projeto-final-embarcados/build/esp-idf/imu_tools/CMakeFiles/install/local.dir
+C:/Users/gabri/Documents/projects/projeto-final-embarcados/build/esp-idf/imu_tools/CMakeFiles/install/strip.dir
+C:/Users/gabri/Documents/projects/projeto-final-embarcados/build/esp-idf/sensor_imu/CMakeFiles/__idf_sensor_imu.dir
+C:/Users/gabri/Documents/projects/projeto-final-embarcados/build/esp-idf/sensor_imu/CMakeFiles/edit_cache.dir
+C:/Users/gabri/Documents/projects/projeto-final-embarcados/build/esp-idf/sensor_imu/CMakeFiles/rebuild_cache.dir
+C:/Users/gabri/Documents/projects/projeto-final-embarcados/build/esp-idf/sensor_imu/CMakeFiles/list_install_components.dir
+C:/Users/gabri/Documents/projects/projeto-final-embarcados/build/esp-idf/sensor_imu/CMakeFiles/install.dir
+C:/Users/gabri/Documents/projects/projeto-final-embarcados/build/esp-idf/sensor_imu/CMakeFiles/install/local.dir
+C:/Users/gabri/Documents/projects/projeto-final-embarcados/build/esp-idf/sensor_imu/CMakeFiles/install/strip.dir
